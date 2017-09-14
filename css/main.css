@@ -4,7 +4,7 @@ body {
 }
 #navbar{
   text-align:center;
-  background-color:#3B4252;
+  background-color:#ffffff;
   table-layout: fixed;
   width:100%;
   height:7%;
@@ -18,7 +18,7 @@ body {
   font-size:1.27em;
 }
 .navbar-button:hover { 
-  background-color:#475063;
+  background-color:#fffd8c;
 }
 .nav-links {
   text-decoration: none; 
