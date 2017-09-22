@@ -3,7 +3,9 @@ body {
   font-family:"Garamond";
 }
 #navbar{
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
   text-align:center;
   background-color:#ffffff;
   table-layout: fixed;
@@ -11,6 +13,9 @@ body {
   height:7%;
 }
 .navbar-button{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   font-weight:normal;
   padding:10px;
   vertical-align: middle;
@@ -22,6 +27,9 @@ body {
   background-color:#fffd8c;
 }
 .nav-links {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   text-decoration: none; 
   color : #000000;
   width:50%;
