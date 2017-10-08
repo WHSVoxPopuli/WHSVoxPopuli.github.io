@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/x-icon" href="https://whsvoxpopuli.github.io/favicon.ico?v=2">
+     <link rel = "stylesheet" type = "text/css" href = "/css/main.css" />
+    <title>Vox Populi</title>
+  </head>
+  
+  <body>
+	<div id="SideNavbar" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a>
+		<a href="/pages/News.html">News</a>
+		<a href="/pages/Contact.html">Contact</a>
+		<a href="/pages/About.html">About</a>
+	</div>
+		<span style="font-size:20px;cursor:pointer;float:right" onclick="openNav()">&#9883; Links &#9883;</span>
+		<h1 >Vox Populi</h1>
+		<script>
+			function openNav() {
+				document.getElementById("SideNavbar").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("SideNavbar").style.width = "0";
+				document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>
+		<h2 text-align:left;>Contact us</h1>
+		<p>Currently, the best way to contact us is at: <b>davidtung2012@gmail.com</b></p>
+	   
+  </body>
+</html>
