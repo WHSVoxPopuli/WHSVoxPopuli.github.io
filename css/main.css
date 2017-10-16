@@ -4,7 +4,7 @@ body {
 .titles {
    float: right;
    position: relative;
-   left: -50%; /* or right 50% */
+   left: -75%;
    text-align: left;
 }
 .sidenav {
