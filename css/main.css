@@ -1,12 +1,13 @@
 body {
   font-family:"Garamond";
 }
+/*
 .titles {
    float: right;
    position: relative;
    left: -75%;
    text-align: left;
-}
+}*/
 .sidenav {
     height: 100%;
     width: 0;
